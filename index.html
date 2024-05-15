@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BeerToBelieve</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Cervezas y algo de comida">
+  
+
+  <!-- Custom fonts for this template -->
+
+  <link href="fonts.googleapis.com/csse3e5.css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='fonts.googleapis.com/css2275.css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='fonts.googleapis.com/css4391.css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='fonts.googleapis.com/css546d.css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link href="css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+     
+  
+  <link rel="icon" type="image" href="img/favicon.png"> 
+</head>
+<body>
+  <main>
+        
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logo.png" class="img-fluid logo" alt="logo"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="menu-bar.html">Menú</a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link  " href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger "
+                href="franquicias.html"
+            >Franquicias</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav><section id="carouselBanner" class="carousel slide addMt p-0" data-ride="carousel">
+  <h1 class="sr-only">Cerveza artesanal</h1>
+  <ol class="carousel-indicators">
+    <li data-target="#carouselBanner" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselBanner" data-slide-to="1"></li>
+    <li data-target="#carouselBanner" data-slide-to="2"></li>
+    <li data-target="#carouselBanner" data-slide-to="3"></li>
+    <li data-target="#carouselBanner" data-slide-to="4"></li>
+    <li data-target="#carouselBanner" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active banner banner-resto">
+      <div class="carousel-caption d-block">
+        <h2 class="h3">Cervehorarios</h2>
+        <p>Todos los días a partir de las 08 hs.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item banner banner-menu">
+      <div class="carousel-caption d-block">
+        <h2 class="h3">Morfi</h2>
+        <p>Amplia variedad de platos</p>
+      </div>
+    </div>
+    <div class="carousel-item banner banner-resto-rdz">
+      <div class="carousel-caption d-block">
+        <h2 class="h3">Resto</h2>
+        <p>Todos los días a partir de las 18 hs.</p>
+      </div>
+    </div>
+    <div class="carousel-item banner banner-barman">
+      <div class="carousel-caption d-block">
+        <h2 class="h3">Cervecería y Cocteleria de Autor</h2>
+        <p>Vení a conocernos!</p>
+      </div>
+    </div>
+    <div class="carousel-item banner banner-bar">
+      <div class="carousel-caption d-block">
+        <h2 class="h3">Happy hours o days, vemos</h2>
+        <p>Todos los días a partir de las 18 hs. Happy Hours y After office.</p>
+      </div>
+    </div>
+    <div class="carousel-item banner banner-drink">
+      <div class="carousel-caption d-block">
+        <p>Se aceptan dolares y patacones</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselBanner" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselBanner" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</section>
+
+
+
+
+
+  
+
+    <!-- Contact -->
+<section id="contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="section-heading text-uppercase">Contactanos</h1>
+        <h3 class="section-subheading text-muted">para mas info.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form id="contactForm" name="sentMessage" novalidate action="contactenos.php">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" id="name" type="text" placeholder="Tu nombre *" required data-validation-required-message="Por favor, escribí tu nombre.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="email" type="email" placeholder="Tu e-mail *" required data-validation-required-message="Por favor, escribí tu dirección de e-mail.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="phone" type="tel" placeholder="Tu Telefono *" required data-validation-required-message="Por favor, escribí tu número de teléfono.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" id="message" placeholder="Tu mensaje *" required data-validation-required-message="Por favor escribí tu mensaje."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wsp btn -->
+<div>                     
+  <a class="btnWsp" href="https://wa.me/5491111111111?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank"><span class="fab fa-whatsapp"></span> <span class="d-none">Enviar mensaje de WhatsApp</span></a>
+</div>
+<!-- Portfolio Modals -->
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Cerveza Dorada</h2>
+              <p class="item-intro text-muted">Esta es una cerveza muy sutil y delicada.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full_logo.jpg" alt="Cerveza dorada banner">
+              <p>lorem</p>
+              
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Cerveza Dulce</h2>
+              <p class="item-intro text-muted">Equilibrio entre malta y lúpulo con inconfundible sabor a miel </p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full_logo.jpg" alt="Cerveza Honey">
+              <p>lorem.</p>
+               <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Cerveza Negra</h2>
+              <p class="item-intro text-muted">Color chocolate intenso, textura sedosa y espuma cremosa.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full_logo.jpg" alt="Cerveza Stout">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorum illo optio architecto vitae impedit? Quasi optio nam, minus inventore reprehenderit omnis, deleniti officiis quae, doloribus voluptatem nobis eius repellat.</p>
+                          <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+            
+
+              <h2 class="text-uppercase">Cerveza Roja</h2>
+              <p class="item-intro text-muted">No hace falta agarrarse el izquierdo para tomarla.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full_logo.jpg" alt="Cerveza Roja">
+              <p>lorem.</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Cerveza Rubia</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est non veniam asperiores explicabo hic cum, et eos rem sapiente magni quisquam.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full_logo.jpg" alt="Cerveza Dorada">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis a voluptates deleniti architecto ea explicabo fugit soluta obcaecati dolor, dolores doloribus inventore eligendi. Nostrum velit dolorum nihil eaque aliquid mollitia?.</p>
+              <ul class="list-inline">
+                <
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+            
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">IPA</h2>
+              <p class="item-intro text-muted">Rubia Turbia, no tarada</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full_logo.jpg" alt="Cerveza IPA ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus doloribus, eum mollitia doloremque tenetur. Culpa blanditiis alias consectetur. Maiores recusandae impedit corrupti nisi repellendus. Aspernatur quae repudiandae ea fuga.</p>
+              <ul class="list-inline">
+                              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <!-- Footer -->
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+</body>
+
+</html>
+<footer class="bg-light">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        <span class="copyright">Copyright HGD</span>
+        </div>
+        <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="https://es-la.facebook.com//" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+            <a href="https://wa.me/5491111111111" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            </li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+            <a href="web o repos desa" target="_blank">HGD</a>
+            </li>
+            <li class="list-inline-item">
+            <a href="link to mail" target="_blank">Mail de contacto</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
