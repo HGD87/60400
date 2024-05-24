@@ -6,9 +6,14 @@
 .cursor-pointer{
 	cursor: pointer;
 }
-#imagenfondo{
-	background-image:url(../img/franquicia/bg.jpg);
+body {
+	background-color: rgb(155, 151, 151);
 }
+.navbar-nav{
+	display: flex; /* Activar Flexbox */
+	justify-content: space-between; /* Distribución de elementos con espacio entre ellos */
+	align-items: center; /* Alineación vertical de los elementos */
+  }
 .btnWsp{
 	display: flex;
 	align-items: center;
@@ -154,6 +159,34 @@ h2[aria-expanded="true"] span{
 		-moz-transform: rotate(180deg);
 		transform: rotate(180deg);
 }
+
+.testgrid {
+	display: grid; /* Activar GRID */
+	color: black; /* Color de texto negro */
+	position: inherit; /* Posición fija */
+	bottom: 0; /* Parte inferior de la pantalla */
+	left: 0; /* Parte izquierda de la pantalla */
+  }
+
+  .testgrid div {
+	padding: 3px; /* Padding para el contenido */
+	/*border: 1px solid #5e5757; /* Borde para el contenido */
+  }
+
+  .testflex {
+	display: flex; /* Activar Flexbox */
+	color: black; /* Color de texto negro */
+	position: relative; /* Posición fija */
+	bottom: 4px; /* Posición por debajo de "testgrid" */
+	left: 0; /* Parte izquierda de la pantalla */
+  }
+
+  .testflex div {
+	padding: 3px; /* Padding para el contenido */
+	border: 1px solid #5e5757; /* Borde para el contenido */
+	margin: 0 3px; /* Margen entre elementos */
+  }
+
 @media screen and (max-width : 766px){
 	.p-height{
 		min-height: auto;
