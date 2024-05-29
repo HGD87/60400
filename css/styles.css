@@ -84,7 +84,7 @@ body {
 	background-size: cover;
 }
 .header-color{
-	color:#ffb340d0
+	color:#181616d0
 }
 .text-cream{
 	color:#f7e298d0
@@ -93,7 +93,7 @@ body {
 	background-color:#f7e298c4;
 }
 .body-dark{
-	background: #231F20;
+	background: #7a7a7a;
 }
 .p-height{
 	min-height: 170px;
@@ -116,7 +116,7 @@ body {
 	min-height: calc(100vh - 86px);
 }
 .bg-products{
-	background: url('../img/products/bg-products.jpg') center;
+	background: url('/img/products/bg-products.jpg') center;
 	background-size: cover;
 }
 .img-height-300{
