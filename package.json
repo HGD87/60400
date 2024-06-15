@@ -1,0 +1,22 @@
+{
+  "name": "mixinandextend",
+  "version": "1.0.0",
+  "description": "aplicacion exten y mixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HGD87/HGD87-60400.github.io.git"
+  },
+  "author": "HGD87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HGD87/HGD87-60400.github.io/issues"
+  },
+  "homepage": "https://github.com/HGD87/HGD87-60400.github.io#readme",
+  "dependencies": {
+    "sass": "^1.77.5"
+  }
+}

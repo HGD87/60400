@@ -11413,11 +11413,5 @@ a.text-dark:hover {
 	}
 }
 
-@mixin texto--.- {
-	font-family: 'Nunito', sans-serif;
-	font-style: italic;
-	color: tomato;
-	border: none;
-}
 
 /*# sourceMappingURL=bootstrap.min.css.map */

@@ -1,0 +1,37 @@
+
+/* Mixin para texto con estilo Nunito, italic, color tomato y sin borde */
+@mixin textolorem {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    color: #ff6347;
+    border: none;
+  }
+  
+ 
+  maindiv {
+    @include textolorem;
+  }
+  
+  secondarydiv {
+    @include textolorem;
+  }
+
+  // cambio de propiedades del secondarydiv
+@mixin secondarydiv {
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+// Extend para la clase "secondarydiv"
+secondarydiv {
+  @extend secondarydiv;
+
+  // Borde punteado
+  border-style: dotted;
+
+  // Convertir en objeto de bloque
+  display: block;
+}
