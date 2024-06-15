@@ -1,21 +1,230 @@
-/* Mixin para texto con estilo Nunito, italic, color tomato y sin borde */
-maindiv {
-  font-family: "Nunito", sans-serif;
-  font-style: italic;
-  color: #ff6347;
-  border: none;
+@charset "utf-8";
+
+.logo{
+	max-height:60px
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+body {
+	background-color: rgb(155, 151, 151);
+}
+.navbar-nav{
+	display: flex; /* Activar Flexbox */
+	justify-content: space-between; /* Distribución de elementos con espacio entre ellos */
+	align-items: center; /* Alineación vertical de los elementos */
+  }
+.btnWsp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	background-color: #25d366;
+	color: white;
+	position: fixed;
+	bottom:  15px;
+	right: 15px;
+	font-size: 35px;
+	z-index: 100;
+	border-radius: 50%;
+}
+.btnWsp:hover{
+	background-color: #1cb756;
+	color: white;
+	text-decoration: none;
+}
+.pedidosYa{
+	position: fixed;
+	bottom: 15px;
+	right: 85px;
+}
+.pedidosYa img{
+	width: 53px;
+}
+.divMenuCta{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	right:0;
+	width:100%;
+	background-color: rgba(0,0,0,0.8);
+}
+.btnMenuCta{
+	min-width: 125px;
+}
+.menuIcons{
+	width: 50px;
+}
+.banner{
+	height: 700px;
+}
+.banner-resto{
+	background: url(https://media.istockphoto.com/id/694195744/es/foto/hora-de-cerveza-fresca.webp?s=1024x1024&w=is&k=20&c=VNKHTOcMPjBwf2dGIQ6hbEm7R2PKWyUwZFg6LD1cOVk=);
+	background-size: cover;
+}
+.banner-resto-rdz{
+	background: url(https://media.istockphoto.com/id/1148223648/es/foto/interior-de-un-pub.jpg?s=1024x1024&w=is&k=20&c=LfkGru1p8fHuv9UvHCj3TGQZzyNfHa9dz64Z98kqLww=) center;
+	background-size: cover;
+}
+.banner-menu{
+	background: url(https://media.istockphoto.com/id/1345152975/es/foto/fondo-borroso-de-bebidas-multicolores-y-comida-minimalista-concepto-de-hora-feliz-con-c%C3%B3cteles.webp?s=1024x1024&w=is&k=20&c=s9XSxoNBhOWQ8ojPpwRM37I101m7HU2MSWXX2CxjsnY=) center;
+	background-size: cover;
+}
+.banner-barman{
+	background: url(https://media.istockphoto.com/id/1366811978/es/foto/diferentes-tipos-de-coktails-sobre-mesa-de-madera.webp?s=1024x1024&w=is&k=20&c=Le6_oVxNHod_kH9aLZc5RUGDuQEWDc2kW2FMXGEA9-g=) center;
+	background-size: cover;
+}
+.banner-bar{
+	background: url(https://media.istockphoto.com/id/641775168/es/foto/hombres-y-mujeres-disfrutando-de-una-fiesta-de-j%C3%B3venes.webp?s=1024x1024&w=is&k=20&c=9RxcsFmz5M8T2SbvPONTZu82TgFFCTcpVbYebOIxMh8=) center;
+	background-size: cover;
+}
+.banner-drink{
+	background: url(https://media.istockphoto.com/id/973096386/es/foto/me-gustar%C3%ADa-pagar-con-tarjeta-gracias.webp?s=1024x1024&w=is&k=20&c=jjV6oTljrln0MsWWKeAAOnPzHSgiNtDJHeijp145o7s=) center;
+	background-size: cover;
+}
+.header-color{
+	color:#181616d0
+}
+.text-cream{
+	color:#f7e298d0
+}
+.bg-cream{
+	background-color:#f7e298c4;
+}
+.body-dark{
+	background: #7a7a7a;
+}
+.p-height{
+	min-height: 170px;
+}
+.action-th{
+  width: 15%;
+}
+.menu-title{
+	background-color: #ec991b;
+	color: #231f20;
+	border-radius: .25rem;
+}
+.fadeIn {
+  animation: fadeIn 1s;
+}
+.fadeInUp {
+  animation: fadeInUp 1s;
+}
+.full-height{
+	min-height: calc(100vh - 86px);
+}
+.bg-products{
+	background: url('/img/products/bg-products.jpg') center;
+	background-size: cover;
+}
+.img-height-300{
+	height: 300px;
+}
+.font-big{
+	font-size: 20px;
+}
+.word-break{
+	word-break: break-all;
+}
+.menu .portfolio-modal .modal-content h2 {
+    font-size: 2em;
+}
+.menu .portfolio-modal.show{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	color: #212529
+}
+.menu .portfolio-modal .modal-dialog{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.menu > .portfolio-modal .modal-content{
+	padding: 50px 0;
+}
+.modal-title-label{
+	min-width: 250px;
+	max-width: 280px;
+}
+h2[data-toggle="collapse"]:hover{
+	color: #ffb441;
+	transition: .3s;
+}
+h2[aria-expanded="true"] span{
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		transform: rotate(180deg);
 }
 
-secondarydiv {
-  font-family: "Nunito", sans-serif;
-  font-style: italic;
-  color: #ff6347;
-  border: none;
+.testgrid {
+	display: grid; /* Activar GRID */
+	color: black; /* Color de texto negro */
+	position: inherit; /* Posición fija */
+	bottom: 0; /* Parte inferior de la pantalla */
+	left: 0; /* Parte izquierda de la pantalla */
+  }
+
+  .maindiv, .secondarydiv {
+	/* Se aplica el mixin de texto */
+	@include texto-lorem;
+  }
+
+  .testflex {
+	display: flex; /* Activar Flexbox */
+	color: black; /* Color de texto negro */
+	position: relative; /* Posición fija */
+	bottom: 4px; /* Posición por debajo de "testgrid" */
+	left: 0; /* Parte izquierda de la pantalla */
+  }
+
+  .testflex div {
+	padding: 3px; /* Padding para el contenido */
+	border: 1px solid #5e5757; /* Borde para el contenido */
+	margin: 0 3px; /* Margen entre elementos */
+  }
+
+@media screen and (max-width : 766px){
+	.p-height{
+		min-height: auto;
+	}
+	.logoHeight{
+		max-height:50px;
+	}
+	.modal-title-label{
+		min-width: auto;
+	}
+}
+@media screen and (max-width : 992px){
+	.addMt{
+		margin-top: 83px;
+	}
+	.banner{
+		height: 450px;
+	}
 }
 
-secondarydiv {
-  border-style: dotted;
-  display: block;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-/*# sourceMappingURL=styles.css.map */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
